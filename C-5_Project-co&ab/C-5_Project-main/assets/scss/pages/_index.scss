@@ -1,0 +1,127 @@
+.banner-1 {
+  background-image: url(/assets/images/1x-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 360px;
+  @include mobile {
+    background-position: right;
+    background-size: inherit;
+    height: 797px;
+  }
+}
+
+.display-1 {
+  font-family: "ChenYuluoyan-Thin-Monospaced";
+  font-size: 32px;
+  @include mobile {
+    font-size: 64px;
+    line-height: 1.2;
+  }
+}
+.display-2 {
+  font-family: "ChenYuluoyan-Thin-Monospaced";
+  font-size: 24px;
+  @include mobile {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+}
+.display-3 {
+  font-family: "ChenYuluoyan-Thin-Monospaced";
+  font-size: 24px;
+  @include mobile {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+}
+.btn-lg {
+  @include mobile {
+    border-radius: 16px;
+  }
+}
+.cafe-logo {
+  @include mobile {
+    background: url(/assets/svg/logo/logo-bgc.svg) no-repeat;
+    background-position: right center;
+  }
+}
+.banner-2 {
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      0deg,
+      #fffcf5,
+      transparent 100%,
+      #fffcf5,
+      transparent 80%
+    );
+    @include mobile {
+      display: none;
+    }
+  }
+}
+.news-all {
+  border-bottom: 2px solid #b0b0b0;
+}
+#myBtn {
+  width: 48px;
+  height: 48px;
+  display: none;
+  position: fixed;
+  border: none;
+  bottom: 64px;
+  right: 12px;
+  z-index: 99;
+  background-color: rgba(201, 211, 216, 0.7);
+  border-radius: 100rem;
+  @include mobile {
+    width: 96px;
+    height: 96px;
+    right: 392px;
+    bottom: 80px;
+  }
+  &:hover {
+    background-color: rgba(163, 184, 196, 0.7);
+  }
+}
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.nav-link {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.splide__slide {
+  margin: 0 24px;
+  width: auto !important;
+}
+.splide__arrow {
+  height: 3.5rem;
+  width: 3.5rem;
+  border: 1px solid #3d464d;
+  opacity: 1;
+  background-color: #f4f6f7;
+  right: 20rem;
+}
+.splide__arrow--prev {
+  left: 20rem;
+}

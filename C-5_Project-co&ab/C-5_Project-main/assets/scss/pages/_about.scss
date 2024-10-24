@@ -1,0 +1,183 @@
+.container {
+    width: 100%;
+    max-width: 1296px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.display {
+    justify-content: center;
+    font-family: Chenyuluoyan;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 57.6px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: hsla(0, 0%, 0%, 1);
+    padding: 32px 0 40px;
+}
+
+.welcome {
+    display: flex;
+    margin: 0 auto 32px;
+}
+
+.w1 {
+    margin-right: 24px;
+}
+
+.apply {
+    margin: 80px auto 0;
+    display: flex;
+}
+
+.slogan {
+    margin: 80px 0 32px;
+}
+
+.ts {
+    justify-content: center;
+    margin: 173px auto 0;
+}
+
+.im {
+    width: 100%;
+    max-width: 526px;
+}
+
+.award {
+    width: 100%;
+    max-width: 1920px;
+    margin: 80px auto;
+}
+
+.ti {
+    margin: 0;
+}
+
+.df {
+    display: flex;
+    align-items: center;
+    margin: 70px 0 24px;
+}
+
+.aw1 {
+    width: 100%;
+    max-width: 200px;
+}
+
+.desc {
+    margin-left: 24px;
+}
+
+h1, h2, h3, h4, .link, .mp, .mission, .tb-1 {
+    font-family: Noto Sans TC;
+    letter-spacing: 0.02em;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: hsla(212, 11%, 24%, 1);
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+    color: #000000;
+    margin: 0;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: center;
+    color: #684126;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    color: #000000;
+}
+
+.link {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    color: #5C727E;
+}
+
+.m1, .m2, .m3 {
+    width: 100%;
+    max-width: 392px;
+    gap: 60px;
+}
+
+.mp {
+    width: 100%;
+    max-width: 344px;
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.mission {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: center;
+    color: #000000;
+    margin-top: 32px;
+    justify-content: center;
+}
+
+.tb-1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: hsla(0, 0%, 4%, 1);
+    width: 100%;
+    max-width: 514px;
+    margin: 60px auto 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.item {
+    flex: 1 1 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .item {
+        flex: 1 1 100%;
+    }
+}
+
+@font-face {
+    font-family: "Chenyuluoyan";
+    src: url(ChenYuluoyan-Thin.ttf);
+}

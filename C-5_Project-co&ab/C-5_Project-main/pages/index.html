@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="../assets/images/favIcon.ico">
+  <link href="
+  https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+  " rel="stylesheet">
+  <title>咖啡全是學 - 首頁</title>
+</head>
+
+<body>
+
+  <%- include('./layout/header'); -%>
+    <section class="banner-1">
+      <div class="container d-flex flex-column">
+        <div class="row mt-lg-17">
+          <h2 class="col-12 ms-n3 mb-4 mt-6"><span class="display-1 bg-primary-100 px-2 py-1">陪您清醒的風味</span>
+          </h2>
+          <h2 class="col-12 ms-n3"><span class="display-1 bg-primary-100 ps-6 pe-2 ps-md-16 py-1">選擇咖啡全是學</span>
+          </h2>
+        </div>
+        <div class="row d-none d-sm-block mt-lg-17">
+          <div class="col">
+            <div class="text-center text-md-start">
+              <a href="products.html" type="button"
+                class="btn btn-lg btn-secondary-500 py-4 px-9 px-lg-15 fs-7 fs-md-4">點此選購</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container d-sm-none mt-5">
+      <div class="row d-sm-block">
+        <div class="">
+          <div class="text-center text-md-start">
+            <button type="button" class="btn btn-lg btn-secondary-500 py-4 px-9 px-lg-15 fs-7 fs-md-4">點此選購</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 關於我們 -->
+    <section class="container mt-md-14 mt-9">
+      <div class="row text-center text-md-start">
+        <div class="col-md-6 px-0 px-sm-3">
+          <div class="banner-2 position-relative">
+            <img src="../assets/images/1x-banner-02-L.png" alt="caffee">
+          </div>
+        </div>
+        <div class="col-md-6 mt-6 mt-md-0 py-md-13 px-md-9 cafe-logo">
+          <h5 class="fs-9 fs-md-5 h5">關於我們</h5>
+          <div class="display-2 mt-2">咖啡全是學</div>
+          <div class="fs-8 fs-md-4">
+            <p class="mt-6">
+              賦予生活一份閒情<br>
+              灑入肉桂粉<br>
+              將苦澀與辛辣飲下<br>
+            </p>
+            <p class="mt-6">
+              早晨的空氣中有您<br>
+              和咖啡<br>
+              軟的香氣<br>
+            </p>
+            <p class="mt-6">
+              與您同行、陪您清醒<br>
+              以空無一物的杯，承接您的快樂<br>
+            </p>
+            <p class="mt-6">
+              在這閃亮的日子<br>
+              烘培您與我的共感默契<br>
+              讓靈魂呼吸片刻自由
+            </p>
+          </div>
+          <div class="col text-md-start mt-5 mb-6">
+            <a href="about.html" class="btn btn-lg btn-secondary-500 py-4 px-9 px-lg-15 fs-7 fs-md-4">點此了解</a>
+          </div>
+        </div>
+    </section>
+    <!-- PC版 熱銷商品 -->
+    <div class="container d-none d-md-block">
+      <div class="row">
+        <div class="col-12">
+          <h5 class="h5 fs-md-2 mt-md-14 fw-bold">熱銷商品</h5>
+        </div>
+      </div>
+    </div>
+    <section id="image-carousel" class="splide d-none d-md-block mt-7" aria-label="Beautiful Images">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img src="../assets/images/1x_product01-web.png" alt="">
+            <div class="p-1 text-start">
+              <p class="card-text fs-9 text-neutral-200 fs-md-5 mt-md-2">Blue Java Full Washed Arabica / BlueJava Situ
+                Full
+                Washed
+              </p>
+              <h6 class="card-text fs-md-3 fw-bold">藍鑽爪哇全水洗阿拉比卡
+              </h6>
+              <p class="card-text fs-9 text-neutral-300 mt-1 mt-md-4 fs-md-5">風味就像……
+              </p>
+              <p class="card-text fs-9 text-primary-400 fs-md-5">果香甜、柳丁、醇度適中、尾韻乾淨
+              </p>
+              <p class="card-text fs-9 text-neutral-300 mt-1 mt-md-4 fs-md-5">全水洗處理｜<span
+                  class="text-primary-300">Specialty</span>
+              </p>
+              <h6 class="card-text text-secondary-600 mt-1 mt-md-4 fs-md-3">＄400
+              </h6>
+            </div>
+          </li>
+          <li class="splide__slide opacity-50">
+            <img src="../assets/images/1x_product02-web.png" alt="">
+            <div class="p-1 text-start">
+              <p class="card-text fs-9 text-neutral-200 fs-md-5 mt-md-2">Toraja Super Sapan
+              </p>
+              <h6 class="card-text fs-md-3 fw-bold">托拉加高地薩本
+              </h6>
+              <p class="card-text fs-9 text-neutral-300 mt-1 mt-md-4 fs-md-5">風味就像……
+              </p>
+              <p class="card-text fs-9 text-primary-400 fs-md-5">玫瑰、甜辣辛香料、洛神花、鳳梨、鐵觀音、焦糖尾韻
+              </p>
+              <p class="card-text fs-9 text-neutral-300 mt-1 mt-md-4 fs-md-5">半水洗處理｜<span
+                  class="text-primary-300">G1</span>
+              </p>
+              <h6 class="card-text text-secondary-600 mt-1 mt-md-4 fs-md-3">＄400
+              </h6>
+            </div>
+          </li>
+          <li class="splide__slide opacity-50">
+            <img src="../assets/images/1x_product02-web.png" alt="">
+            <div class="p-1 text-start">
+              <p class="card-text fs-9 text-neutral-200 fs-md-5 mt-md-2">Blue Java Winey Arabica / Blue Java Situ Winey
+              </p>
+              <h6 class="card-text fs-md-3 fw-bold">藍鑽爪哇酒香阿拉比卡
+              </h6>
+              <p class="card-text fs-9 text-neutral-300 mt-1 mt-md-4 fs-md-5">風味就像……
+              </p>
+              <p class="card-text fs-9 text-primary-400 fs-md-5">酒香、莓果、甜感濃郁、尾韻甜
+              </p>
+              <p class="card-text fs-9 text-neutral-300 mt-1 mt-md-4 fs-md-5">酒香日曬處理｜<span
+                  class="text-primary-300">Speiclty</span>
+              </p>
+              <h6 class="card-text text-secondary-600 mt-1 mt-md-4 fs-md-3">＄400
+              </h6>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- 行動版 熱銷商品 -->
+    <section class="container d-md-none mt-9">
+      <h5 class="h5 fs-md-2 mt-md-14 fw-bold">熱銷商品</h5>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 px-md-10">
+          <div class="card border-0">
+            <picture>
+              <source media="(min-width: 992px)" srcset="../assets/images/1x_product01-web.png">
+              <img src="../assets/images/1x_product01-mobile.png" class="card-img-top" alt="...">
+            </picture>
+            <div class="p-1">
+              <p class="card-text fs-9 text-neutral-200 fs-md-5 mt-md-2">Blue Java Full Washed Arabica / BlueJava Situ
+                Full
+                Washed
+              </p>
+              <h6 class="card-text fs-md-3 fw-bold">藍鑽爪哇全水洗阿拉比卡
+              </h6>
+              <p class="card-text fs-9 text-neutral-300 mt-1 mt-md-4 fs-md-5">風味就像……
+              </p>
+              <p class="card-text fs-9 text-primary-400 fs-md-5">果香甜、柳丁、醇度適中、尾韻乾淨
+              </p>
+              <p class="card-text fs-9 text-neutral-300 mt-1 mt-md-4 fs-md-5">全水洗處理｜<span
+                  class="text-primary-300">Specialty</span>
+              </p>
+              <h6 class="card-text text-secondary-600 mt-1 mt-md-4 fs-md-3">＄400
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-10 px-md-10">
+          <div class="card border-0">
+            <picture>
+              <source media="(min-width: 992px)" srcset="../assets/images/1x_product01-web.png">
+              <img src="../assets/images/1x_product02-mobile.png" class="card-img-top" alt="...">
+            </picture>
+            <div class="p-1">
+              <p class="card-text fs-9 text-neutral-200 fs-md-5 mt-md-2">Toraja Super Sapan
+              </p>
+              <h6 class="card-text fs-md-3">托拉加高地薩本
+              </h6>
+              <p class="card-text fs-9 text-neutral-300 mt-1 mt-md-4 fs-md-5">風味就像……
+              </p>
+              <p class="card-text fs-9 text-primary-400 fs-md-5">玫瑰、甜辣辛香料、洛神花、鳳梨、鐵觀音、焦糖尾韻
+              </p>
+              <p class="card-text fs-9 text-neutral-300 mt-1 mt-md-4 fs-md-5">半水洗處理｜<span
+                  class="text-primary-300">G1</span>
+              </p>
+              <h6 class="card-text text-secondary-600 mt-1 mt-md-4 fs-md-3">＄400
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-10 px-md-10">
+          <div class="card border-0">
+            <picture>
+              <source media="(min-width: 992px)" srcset="../assets/images/1x_product01-web.png">
+              <img src="../assets/images/1x_product03-mobile.png" class="card-img-top" alt="...">
+            </picture>
+            <div class="p-1">
+              <p class="card-text fs-9 text-neutral-200 fs-md-5 mt-md-2">Blue Java Winey Arabica / Blue Java Situ Winey
+              </p>
+              <h6 class="card-text fs-md-3">藍鑽爪哇酒香阿拉比卡
+              </h6>
+              <p class="card-text fs-9 text-neutral-300 mt-1 mt-md-4 fs-md-5">風味就像……
+              </p>
+              <p class="card-text fs-9 text-primay-400 fs-md-5">酒香、莓果、甜感濃郁、尾韻甜
+              </p>
+              <p class="card-text fs-9 text-neutral-300 mt-1 mt-md-4 fs-md-5">酒香日曬處理｜<span
+                  class="text-primary-300">Specialty</span>
+              </p>
+              <h6 class="card-text text-secondary-600 mt-1 mt-md-4 fs-md-3">＄400
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="text-center">
+        <div class="col text-md-start mt-5"></div>
+        <a href="products.html" type="button"
+          class="btn btn-lg btn-secondary-500 py-4 px-9 px-lg-15 fs-7 fs-md-4">查看全部商品</a>
+      </div>
+    </div>
+    <!-- PC版 最新消息 -->
+    <section class="container d-none d-md-block mt-9 mb-14">
+      <h5 class="h5 fs-md-2 mt-md-14 fw-bold">最新消息</h5>
+      <div class="row mt-7">
+        <div class="col">
+          <div class="d-flex align-items-start">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link active text-start" id="v-pills-home-tab" data-bs-toggle="pill"
+                data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                aria-selected="true">
+                <p class="fs-4 fw-bold">新品上市-「赫爾摩高地」咖啡豆</p>
+                <p class="fs-5 text-neutral-300">我們誠摯向您介紹我們最新的咖啡豆——赫爾摩高地咖啡豆，來自壯闊高地...</p>
+              </button>
+              <button class="nav-link text-start" id="v-pills-profile-tab" data-bs-toggle="pill"
+                data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                aria-selected="false">
+                <p class="fs-4 fw-bold">熱銷商品補貨啦！</p>
+                <p class="fs-5 text-neutral-300">謝謝各位的捧場，前陣子售完的托拉加高地薩本已進貨，歡迎各位再...</p>
+              </button>
+              <button class="nav-link text-start" id="v-pills-messages-tab" data-bs-toggle="pill"
+                data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                aria-selected="false">
+                <p class="fs-4 fw-bold">「托拉加高地薩本」咖啡豆暫時完售</p>
+                <p class="fs-5 text-neutral-300">親愛的顧客們，感謝大家一直以來對我們的支持與厚愛！我們非常高...</p>
+              </button>
+              <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill"
+                data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                aria-selected="false">
+                <p class="fs-4 fw-bold">特色商品得獎-托拉加高地薩本</p>
+                <p class="fs-5 text-neutral-300">我們非常興奮地與您分享一個好消息！我們的「托拉加高地薩本」...</p>
+              </button>
+              <div class="text-end">
+                <a href="#" class="fs-6 text-neutral-300 pb-1 news-all">查看全部</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="tab-content h-100" id="v-pills-tabContent">
+            <div class="tab-pane fade show active h-100" id="v-pills-home" role="tabpanel"
+              aria-labelledby="v-pills-home-tab">
+              <img src="../assets/images/1x-newsImg01.png" alt="coffee news" class="h-100 object-fit-cover">
+            </div>
+            <div class="tab-pane fade h-100" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <img src="../assets/images/1x-newsImg02.jpg" alt="coffee news" class="h-100 object-fit-cover">
+            </div>
+            <div class="tab-pane fade h-100" id="v-pills-messages" role="tabpanel"
+              aria-labelledby="v-pills-messages-tab">
+              <img src="../assets/images/1x-newsImg03.jpg" alt="coffee news" class="h-100 object-fit-cover">
+            </div>
+            <div class="tab-pane fade h-100" id="v-pills-settings" role="tabpanel"
+              aria-labelledby="v-pills-settings-tab">
+              <img src="../assets/images/1x-newsImg04.jpg" alt="coffee news" class="h-100 object-fit-cover">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 行動版 最新消息 -->
+    <section class="container d-sm-none mb-6">
+      <h5 class="h5 mt-9 fw-bold">最新消息</h5>
+      <div class="mt-6">
+        <a href="#">
+          <p class="fs-7 fw-bold">新品上市-「赫爾摩高地」咖啡豆</p>
+          <p class="fs-9 text-neutral-300">我們誠摯向您介紹我們最新的咖啡豆——赫爾摩高地咖啡豆，來自壯闊高地...</p>
+        </a>
+      </div>
+      <div class="mt-3"></div>
+      <a href="#">
+        <p class="fs-7 fw-bold">熱銷商品補貨啦！</p>
+        <p class="fs-9 text-neutral-300">謝謝各位的捧場，前陣子售完的托拉加高地薩本已進貨，歡迎各位再...</p>
+      </a>
+      </div>
+      <div class="mt-3"></div>
+      <a href="#">
+        <p class="fs-7 fw-bold">「托拉加高地薩本」咖啡豆暫時完售</p>
+        <p class="fs-9 text-neutral-300">親愛的顧客們，感謝大家一直以來對我們的支持與厚愛！我們非常高...</p>
+      </a>
+      </div>
+      <div class="mt-3"></div>
+      <a href="#">
+        <p class="fs-7 fw-bold">特色商品得獎-托拉加高地薩本</p>
+        <p class="fs-9 text-neutral-300">我們非常興奮地與您分享一個好消息！我們的「托拉加高地薩本」...</p>
+      </a>
+      </div>
+      <div class="text-end">
+        <a href="#" class="fs-9 text-neutral-300 pb-1 news-all">查看全部</a>
+      </div>
+    </section>
+    <div class="container">
+      <row>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i
+            class="bi bi-shift text-secondary-600 fs-4"></i></button>
+      </row>
+    </div>
+
+    <%- include('./layout/footer'); -%>
+
+      <script type="module" src="../main.js"></script>
+      <script>
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 800 ||
+            document.documentElement.scrollTop > 800
+          ) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+      </script>
+
+      <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+      <script>
+        var splide = new Splide('.splide', {
+          type: 'loop',
+          padding: '30rem',
+          pagination: boolean = false
+        });
+
+        splide.mount();
+
+      </script>
+
+</body>
+
+</html>

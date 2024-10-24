@@ -1,0 +1,88 @@
+.product-image {
+    width: 526px;
+    margin: 51.45px 0;
+}
+
+.dropdown-title {
+    margin-right: 56px;
+}
+
+.dropdown-border-desc {
+    border: 1px solid $secondary-600;
+    border-radius: 16px;
+    padding: 5.5px 0;
+}
+
+.dropdown-btn-desc {
+    width: 280px;
+    border: none;
+}
+
+.dropdown-menu-desc {
+    overflow: hidden;
+}
+
+.order-buttom-desc {
+    background-color: $secondary-600;
+    color: #FFFFFF;
+    border-radius: 16px;
+    padding: 10.5px 16px;
+}
+
+.product-desc {
+    color: $neutral-500;
+}
+
+.link-buttom-desc {
+    border-radius: $border-radius-xl;
+}
+
+.link-icon-desc {
+    font-size: 24px;
+}
+
+.swiper {
+    max-width: 100%;
+    height: 100%;
+    margin-left: 147px;
+    margin-right: 147px;
+
+    &-slide {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &-card-desc {
+        width: 306px;
+    }
+
+    &-button-prev-desc {
+        visibility: hidden;
+        margin-left: 193px;
+    }
+    &-button-prev-item-desc {
+        visibility: visible;
+        background-color: $secondary-100;
+        color: $secondary-500;
+        padding: 15px;
+    }
+    &-button-next-desc {
+        visibility: hidden;
+        margin-right: 193px;
+    }
+    &-button-next-item-desc {
+        visibility: visible;
+        background-color: $secondary-100;
+        color: $secondary-500;
+        padding: 15px;
+    }
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>咖啡都是學 - 商品個人頁</title>
+</head>
+
+<body>
+
+  <%- include('./layout/header'); -%>
+
+    <main class="container">
+
+      <nav class="fs-5"
+        style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+        aria-label="breadcrumb">
+        <ol class="breadcrumb mt-10 mb-6">
+          <li class="breadcrumb-item"><a class="link-secondary" href="./index.html">首頁</a></li>
+          <li class="breadcrumb-item" aria-current="page"><a class="link-secondary" href="./collections.html">非洲</a>
+          </li>
+          <li class="breadcrumb-item text-neutral-500" aria-current="page">衣索比亞 / 瓦米納處理站 / 日曬 / 西達摩 / Heirloom原生種</li>
+        </ol>
+      </nav>
+
+      <section class="d-flex">
+
+        <img class="product-image me-9" src="/assets/images/1x_product02-web.png" alt="products_img">
+
+        <div class="dropdown-group">
+
+          <h1 class="fs-3 fw-bold mb-4">衣索比亞 / 瓦米納處理站 / 日曬 / 西達摩 / Heirloom原生種</h1>
+          <p class="fw-bold mb-7"><span class="fs-2 text-primary-400">＄400</span><span class="text-secondary-400"> /
+              230g</span></p>
+          <p class="fs-5 text-secondary-400 mb-6">如果您想購買更多的咖啡豆 / 咖啡粉 / 濾掛式，請調整訂購數量。</p>
+
+          <div class="d-flex align-items-center ms-6 mb-6">
+            <p class="dropdown-title fs-4 fw-bold">咖啡豆</p>
+            <div class="dropdown dropdown-border-desc me-4">
+              <button class="btn dropdown-btn-desc dropdown-toggle fs-4 fw-bold" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                100 克
+              </button>
+              <ul class="dropdown-menu dropdown-menu-desc my-3" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item fs-4 fw-bold text-center" href="#">100 克</a></li>
+                <li><a class="dropdown-item fs-4 fw-bold text-center" href="#">200 克</a></li>
+                <li><a class="dropdown-item fs-4 fw-bold text-center" href="#">300 克</a></li>
+              </ul>
+            </div>
+            <a href="#"><i class="bi bi-cart3 order-buttom-desc" style="font-size: 24px;"></i></a>
+          </div>
+
+          <div class="d-flex align-items-center ms-6 mb-6">
+            <p class="dropdown-title fs-4 fw-bold">咖啡粉</p>
+            <div class="dropdown dropdown-border-desc me-4">
+              <button class="btn dropdown-btn-desc dropdown-toggle fs-4 fw-bold" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                100 克
+              </button>
+              <ul class="dropdown-menu dropdown-menu-desc my-3" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item fs-4 fw-bold text-center" href="#">100 克</a></li>
+                <li><a class="dropdown-item fs-4 fw-bold text-center" href="#">200 克</a></li>
+                <li><a class="dropdown-item fs-4 fw-bold text-center" href="#">300 克</a></li>
+              </ul>
+            </div>
+            <a href="#"><i class="bi bi-cart3 order-buttom-desc" style="font-size: 24px;"></i></a>
+          </div>
+
+          <div class="d-flex align-items-center ms-6 mb-6">
+            <p class="dropdown-title fs-4 fw-bold">濾掛式</p>
+            <div class="dropdown dropdown-border-desc me-4">
+              <button class="btn dropdown-btn-desc dropdown-toggle fs-4 fw-bold" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                一袋十入 <span class="fs-6 fw-bold">(100克)</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-desc my-3" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item fs-4 fw-bold text-center" href="#">一袋十入 <span
+                      class="fs-6 fw-bold">(100克)</span></a></li>
+                <li><a class="dropdown-item fs-4 fw-bold text-center" href="#">兩袋十入 <span
+                      class="fs-6 fw-bold">(200克)</span></a></li>
+                <li><a class="dropdown-item fs-4 fw-bold text-center" href="#">三袋十入 <span
+                      class="fs-6 fw-bold">(300克)</span></a></li>
+              </ul>
+            </div>
+            <a href="#"><i class="bi bi-cart3 order-buttom-desc" style="font-size: 24px;"></i></a>
+          </div>
+
+        </div>
+
+      </section>
+
+      <div class="product-desc mb-7">
+        <div class="fs-5 mb-6 px-4">
+          <p class="mb-2">風味<span class="ms-9 text-primary-400">花香類、果香類、糖香類、香料類、堅果類</span></p>
+          <p class="mb-2">高海拔<span class="ms-9 text-primary-400">淡雅花香、柑橘熱帶熟果</span></p>
+          <p class="mb-2">中海拔</p>
+          <p class="mb-2">口感<span class="ms-9 text-primary-400">酸甜平衡</span></p>
+          <p>烘培度<span class="ms-9 text-primary-400">AGTRON粉值為60～66之間</span></p>
+        </div>
+        <div class="fs-5 px-4">
+          <p>
+            日曬處理法是咖啡果在陽光下曬乾的方法，不去除或清洗果肉，這似乎是一個非常簡單的過程，但實際上這是一個耗時的過程，因為在這過程中很容易發生損壞，並且很難保持相同的品質。<br>
+            這會產生濃郁的果香咖啡。<br>
+            許多人第一次嘗試時都會感到驚訝，因為它具有普通咖啡所沒有的果香和發酵風味。
+          </p>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <button type="button" class="btn btn-outline-secondary-600 link-buttom-desc border-2 p-0">
+          <a href="#">
+            <span class="material-symbols-outlined p-4">
+              mail
+            </span>
+          </a>
+        </button>
+        <button type="button" class="btn btn-outline-secondary-600 link-buttom-desc border-2 p-0 mx-14 my-6">
+          <a href="#">
+            <span class="material-symbols-outlined p-4">
+              favorite
+            </span>
+          </a>
+        </button>
+        <button type="button" class="btn btn-outline-secondary-600 link-buttom-desc border-2 p-0">
+          <a href="#">
+            <span class="material-symbols-outlined p-4">
+              share
+            </span>
+          </a>
+        </button>
+      </div>
+
+      <div class="mb-7">
+        <h2 class="fw-bold">其他品項</h2>
+      </div>
+
+    </main>
+
+    <div class="swiper mb-14">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card swiper-card-desc border-0">
+            <img src="/assets/images/1x_product01-web.png" alt="product_img">
+            <p class="fs-9 text-neutral-300">Blue Java Winey Arabica / Blue Java Situ Winey</p>
+            <h3 class="fs-6 text-neutral-500 fw-bold mb-1">藍鑽爪哇酒香阿拉比卡</h3>
+            <p class="fs-9 text-neutral-300">風味就像……</p>
+            <p class="fs-8 text-primary-400 mb-1">酒香、莓果、甜感濃郁、尾韻甜</p>
+            <p class="fs-8 mb-1">酒香日曬處理｜<span class="text-primary-300">Specialty</span></p>
+            <p class="text-primary-600 fw-bold">＄400</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card swiper-card-desc border-0">
+            <img src="/assets/images/1x_product01-web.png" alt="product_img">
+            <p class="fs-9 text-neutral-300">Blue Java Winey Arabica / Blue Java Situ Winey</p>
+            <h3 class="fs-6 text-neutral-500 fw-bold mb-1">藍鑽爪哇酒香阿拉比卡</h3>
+            <p class="fs-9 text-neutral-300">風味就像……</p>
+            <p class="fs-8 text-primary-400 mb-1">酒香、莓果、甜感濃郁、尾韻甜</p>
+            <p class="fs-8 mb-1">酒香日曬處理｜<span class="text-primary-300">Specialty</span></p>
+            <p class="text-primary-600 fw-bold">＄400</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card swiper-card-desc border-0">
+            <img src="/assets/images/1x_product01-web.png" alt="product_img">
+            <p class="fs-9 text-neutral-300">Blue Java Winey Arabica / Blue Java Situ Winey</p>
+            <h3 class="fs-6 text-neutral-500 fw-bold mb-1">藍鑽爪哇酒香阿拉比卡</h3>
+            <p class="fs-9 text-neutral-300">風味就像……</p>
+            <p class="fs-8 text-primary-400 mb-1">酒香、莓果、甜感濃郁、尾韻甜</p>
+            <p class="fs-8 mb-1">酒香日曬處理｜<span class="text-primary-300">Specialty</span></p>
+            <p class="text-primary-600 fw-bold">＄400</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card swiper-card-desc border-0">
+            <img src="/assets/images/1x_product01-web.png" alt="product_img">
+            <p class="fs-9 text-neutral-300">Blue Java Winey Arabica / Blue Java Situ Winey</p>
+            <h3 class="fs-6 text-neutral-500 fw-bold mb-1">藍鑽爪哇酒香阿拉比卡</h3>
+            <p class="fs-9 text-neutral-300">風味就像……</p>
+            <p class="fs-8 text-primary-400 mb-1">酒香、莓果、甜感濃郁、尾韻甜</p>
+            <p class="fs-8 mb-1">酒香日曬處理｜<span class="text-primary-300">Specialty</span></p>
+            <p class="text-primary-600 fw-bold">＄400</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card swiper-card-desc border-0">
+            <img src="/assets/images/1x_product01-web.png" alt="product_img">
+            <p class="fs-9 text-neutral-300">Blue Java Winey Arabica / Blue Java Situ Winey</p>
+            <h3 class="fs-6 text-neutral-500 fw-bold mb-1">藍鑽爪哇酒香阿拉比卡</h3>
+            <p class="fs-9 text-neutral-300">風味就像……</p>
+            <p class="fs-8 text-primary-400 mb-1">酒香、莓果、甜感濃郁、尾韻甜</p>
+            <p class="fs-8 mb-1">酒香日曬處理｜<span class="text-primary-300">Specialty</span></p>
+            <p class="text-primary-600 fw-bold">＄400</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card swiper-card-desc border-0">
+            <img src="/assets/images/1x_product01-web.png" alt="product_img">
+            <p class="fs-9 text-neutral-300">Blue Java Winey Arabica / Blue Java Situ Winey</p>
+            <h3 class="fs-6 text-neutral-500 fw-bold mb-1">藍鑽爪哇酒香阿拉比卡</h3>
+            <p class="fs-9 text-neutral-300">風味就像……</p>
+            <p class="fs-8 text-primary-400 mb-1">酒香、莓果、甜感濃郁、尾韻甜</p>
+            <p class="fs-8 mb-1">酒香日曬處理｜<span class="text-primary-300">Specialty</span></p>
+            <p class="text-primary-600 fw-bold">＄400</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card swiper-card-desc border-0">
+            <img src="/assets/images/1x_product01-web.png" alt="product_img">
+            <p class="fs-9 text-neutral-300">Blue Java Winey Arabica / Blue Java Situ Winey</p>
+            <h3 class="fs-6 text-neutral-500 fw-bold mb-1">藍鑽爪哇酒香阿拉比卡</h3>
+            <p class="fs-9 text-neutral-300">風味就像……</p>
+            <p class="fs-8 text-primary-400 mb-1">酒香、莓果、甜感濃郁、尾韻甜</p>
+            <p class="fs-8 mb-1">酒香日曬處理｜<span class="text-primary-300">Specialty</span></p>
+            <p class="text-primary-600 fw-bold">＄400</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev swiper-button-prev-desc">
+        <span class="material-symbols-outlined swiper-button-prev-item-desc fw-bold border border-1 border-secondary-500 rounded-circle">
+          chevron_left
+          </span>
+      </div>
+      <div class="swiper-button-next swiper-button-next-desc">
+        <span class="material-symbols-outlined swiper-button-next-item-desc fw-bold border border-1 border-secondary-500 rounded-circle">
+          chevron_right
+          </span>
+      </div>
+    </div>
+
+    <%- include('./layout/footer'); -%>
+
+      <script type="module" src="../main.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+      <script>
+        const swiper = new Swiper('.swiper', {
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          slidesPerView: 5,
+          spaceBetween: 24,
+          loop: true
+        });
+      </script>
+
+</body>
+
+</html>
